@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E4CC3C25B10EF50083609C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC3B25B10EF50083609C /* AppDelegate.swift */; };
+		65E4CC3E25B10EF50083609C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC3D25B10EF50083609C /* ContentView.swift */; };
+		65E4CC4125B10EF50083609C /* RedBreastRobin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC3F25B10EF50083609C /* RedBreastRobin.xcdatamodeld */; };
+		65E4CC4325B10EF80083609C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E4CC4225B10EF80083609C /* Assets.xcassets */; };
+		65E4CC4625B10EF80083609C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E4CC4525B10EF80083609C /* Preview Assets.xcassets */; };
+		65E4CC4925B10EF80083609C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E4CC4725B10EF80083609C /* Main.storyboard */; };
+		65E4CC5525B10EF90083609C /* RedBreastRobinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC5425B10EF90083609C /* RedBreastRobinTests.swift */; };
+		65E4CC6025B10EF90083609C /* RedBreastRobinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC5F25B10EF90083609C /* RedBreastRobinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65E4CC5125B10EF90083609C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E4CC3025B10EF50083609C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E4CC3725B10EF50083609C;
+			remoteInfo = RedBreastRobin;
+		};
+		65E4CC5C25B10EF90083609C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E4CC3025B10EF50083609C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65E4CC3725B10EF50083609C;
+			remoteInfo = RedBreastRobin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65E4CC3825B10EF50083609C /* RedBreastRobin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBreastRobin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E4CC3B25B10EF50083609C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65E4CC3D25B10EF50083609C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65E4CC4025B10EF50083609C /* RedBreastRobin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedBreastRobin.xcdatamodel; sourceTree = "<group>"; };
+		65E4CC4225B10EF80083609C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E4CC4525B10EF80083609C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65E4CC4825B10EF80083609C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65E4CC4A25B10EF80083609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E4CC4B25B10EF80083609C /* RedBreastRobin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedBreastRobin.entitlements; sourceTree = "<group>"; };
+		65E4CC5025B10EF90083609C /* RedBreastRobinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBreastRobinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E4CC5425B10EF90083609C /* RedBreastRobinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBreastRobinTests.swift; sourceTree = "<group>"; };
+		65E4CC5625B10EF90083609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E4CC5B25B10EF90083609C /* RedBreastRobinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBreastRobinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E4CC5F25B10EF90083609C /* RedBreastRobinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBreastRobinUITests.swift; sourceTree = "<group>"; };
+		65E4CC6125B10EF90083609C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E4CC3525B10EF50083609C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E4CC4D25B10EF90083609C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E4CC5825B10EF90083609C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65E4CC2F25B10EF50083609C = {
+			isa = PBXGroup;
+			children = (
+				65E4CC3A25B10EF50083609C /* RedBreastRobin */,
+				65E4CC5325B10EF90083609C /* RedBreastRobinTests */,
+				65E4CC5E25B10EF90083609C /* RedBreastRobinUITests */,
+				65E4CC3925B10EF50083609C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65E4CC3925B10EF50083609C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E4CC3825B10EF50083609C /* RedBreastRobin.app */,
+				65E4CC5025B10EF90083609C /* RedBreastRobinTests.xctest */,
+				65E4CC5B25B10EF90083609C /* RedBreastRobinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E4CC3A25B10EF50083609C /* RedBreastRobin */ = {
+			isa = PBXGroup;
+			children = (
+				65E4CC3B25B10EF50083609C /* AppDelegate.swift */,
+				65E4CC3D25B10EF50083609C /* ContentView.swift */,
+				65E4CC4225B10EF80083609C /* Assets.xcassets */,
+				65E4CC4725B10EF80083609C /* Main.storyboard */,
+				65E4CC4A25B10EF80083609C /* Info.plist */,
+				65E4CC4B25B10EF80083609C /* RedBreastRobin.entitlements */,
+				65E4CC3F25B10EF50083609C /* RedBreastRobin.xcdatamodeld */,
+				65E4CC4425B10EF80083609C /* Preview Content */,
+			);
+			path = RedBreastRobin;
+			sourceTree = "<group>";
+		};
+		65E4CC4425B10EF80083609C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65E4CC4525B10EF80083609C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65E4CC5325B10EF90083609C /* RedBreastRobinTests */ = {
+			isa = PBXGroup;
+			children = (
+				65E4CC5425B10EF90083609C /* RedBreastRobinTests.swift */,
+				65E4CC5625B10EF90083609C /* Info.plist */,
+			);
+			path = RedBreastRobinTests;
+			sourceTree = "<group>";
+		};
+		65E4CC5E25B10EF90083609C /* RedBreastRobinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65E4CC5F25B10EF90083609C /* RedBreastRobinUITests.swift */,
+				65E4CC6125B10EF90083609C /* Info.plist */,
+			);
+			path = RedBreastRobinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E4CC3725B10EF50083609C /* RedBreastRobin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E4CC6425B10EF90083609C /* Build configuration list for PBXNativeTarget "RedBreastRobin" */;
+			buildPhases = (
+				65E4CC3425B10EF50083609C /* Sources */,
+				65E4CC3525B10EF50083609C /* Frameworks */,
+				65E4CC3625B10EF50083609C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBreastRobin;
+			productName = RedBreastRobin;
+			productReference = 65E4CC3825B10EF50083609C /* RedBreastRobin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65E4CC4F25B10EF90083609C /* RedBreastRobinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E4CC6725B10EF90083609C /* Build configuration list for PBXNativeTarget "RedBreastRobinTests" */;
+			buildPhases = (
+				65E4CC4C25B10EF90083609C /* Sources */,
+				65E4CC4D25B10EF90083609C /* Frameworks */,
+				65E4CC4E25B10EF90083609C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E4CC5225B10EF90083609C /* PBXTargetDependency */,
+			);
+			name = RedBreastRobinTests;
+			productName = RedBreastRobinTests;
+			productReference = 65E4CC5025B10EF90083609C /* RedBreastRobinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65E4CC5A25B10EF90083609C /* RedBreastRobinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E4CC6A25B10EF90083609C /* Build configuration list for PBXNativeTarget "RedBreastRobinUITests" */;
+			buildPhases = (
+				65E4CC5725B10EF90083609C /* Sources */,
+				65E4CC5825B10EF90083609C /* Frameworks */,
+				65E4CC5925B10EF90083609C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E4CC5D25B10EF90083609C /* PBXTargetDependency */,
+			);
+			name = RedBreastRobinUITests;
+			productName = RedBreastRobinUITests;
+			productReference = 65E4CC5B25B10EF90083609C /* RedBreastRobinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E4CC3025B10EF50083609C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					65E4CC3725B10EF50083609C = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					65E4CC4F25B10EF90083609C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 65E4CC3725B10EF50083609C;
+					};
+					65E4CC5A25B10EF90083609C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 65E4CC3725B10EF50083609C;
+					};
+				};
+			};
+			buildConfigurationList = 65E4CC3325B10EF50083609C /* Build configuration list for PBXProject "RedBreastRobin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E4CC2F25B10EF50083609C;
+			productRefGroup = 65E4CC3925B10EF50083609C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E4CC3725B10EF50083609C /* RedBreastRobin */,
+				65E4CC4F25B10EF90083609C /* RedBreastRobinTests */,
+				65E4CC5A25B10EF90083609C /* RedBreastRobinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E4CC3625B10EF50083609C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E4CC4925B10EF80083609C /* Main.storyboard in Resources */,
+				65E4CC4625B10EF80083609C /* Preview Assets.xcassets in Resources */,
+				65E4CC4325B10EF80083609C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E4CC4E25B10EF90083609C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E4CC5925B10EF90083609C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E4CC3425B10EF50083609C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E4CC4125B10EF50083609C /* RedBreastRobin.xcdatamodeld in Sources */,
+				65E4CC3E25B10EF50083609C /* ContentView.swift in Sources */,
+				65E4CC3C25B10EF50083609C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E4CC4C25B10EF90083609C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E4CC5525B10EF90083609C /* RedBreastRobinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65E4CC5725B10EF90083609C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E4CC6025B10EF90083609C /* RedBreastRobinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65E4CC5225B10EF90083609C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E4CC3725B10EF50083609C /* RedBreastRobin */;
+			targetProxy = 65E4CC5125B10EF90083609C /* PBXContainerItemProxy */;
+		};
+		65E4CC5D25B10EF90083609C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65E4CC3725B10EF50083609C /* RedBreastRobin */;
+			targetProxy = 65E4CC5C25B10EF90083609C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65E4CC4725B10EF80083609C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E4CC4825B10EF80083609C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65E4CC6225B10EF90083609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65E4CC6325B10EF90083609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		65E4CC6525B10EF90083609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RedBreastRobin/RedBreastRobin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBreastRobin/Preview Content\"";
+				DEVELOPMENT_TEAM = PLY5RP22RG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RedBreastRobin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jcl.RedBreastRobin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		65E4CC6625B10EF90083609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RedBreastRobin/RedBreastRobin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RedBreastRobin/Preview Content\"";
+				DEVELOPMENT_TEAM = PLY5RP22RG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RedBreastRobin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jcl.RedBreastRobin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		65E4CC6825B10EF90083609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PLY5RP22RG;
+				INFOPLIST_FILE = RedBreastRobinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jcl.RedBreastRobinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBreastRobin.app/Contents/MacOS/RedBreastRobin";
+			};
+			name = Debug;
+		};
+		65E4CC6925B10EF90083609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PLY5RP22RG;
+				INFOPLIST_FILE = RedBreastRobinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jcl.RedBreastRobinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBreastRobin.app/Contents/MacOS/RedBreastRobin";
+			};
+			name = Release;
+		};
+		65E4CC6B25B10EF90083609C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PLY5RP22RG;
+				INFOPLIST_FILE = RedBreastRobinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcl.RedBreastRobinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RedBreastRobin;
+			};
+			name = Debug;
+		};
+		65E4CC6C25B10EF90083609C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PLY5RP22RG;
+				INFOPLIST_FILE = RedBreastRobinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jcl.RedBreastRobinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RedBreastRobin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E4CC3325B10EF50083609C /* Build configuration list for PBXProject "RedBreastRobin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E4CC6225B10EF90083609C /* Debug */,
+				65E4CC6325B10EF90083609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E4CC6425B10EF90083609C /* Build configuration list for PBXNativeTarget "RedBreastRobin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E4CC6525B10EF90083609C /* Debug */,
+				65E4CC6625B10EF90083609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E4CC6725B10EF90083609C /* Build configuration list for PBXNativeTarget "RedBreastRobinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E4CC6825B10EF90083609C /* Debug */,
+				65E4CC6925B10EF90083609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E4CC6A25B10EF90083609C /* Build configuration list for PBXNativeTarget "RedBreastRobinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E4CC6B25B10EF90083609C /* Debug */,
+				65E4CC6C25B10EF90083609C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65E4CC3F25B10EF50083609C /* RedBreastRobin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65E4CC4025B10EF50083609C /* RedBreastRobin.xcdatamodel */,
+			);
+			currentVersion = 65E4CC4025B10EF50083609C /* RedBreastRobin.xcdatamodel */;
+			path = RedBreastRobin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65E4CC3025B10EF50083609C /* Project object */;
+}
