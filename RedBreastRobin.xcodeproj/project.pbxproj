@@ -22,6 +22,8 @@
 		65DACE1E25BD028B00DCEABC /* COVIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DACE1D25BD028B00DCEABC /* COVIDView.swift */; };
 		65DACE3225BECBAB00DCEABC /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DACE3125BECBAB00DCEABC /* LineChartView.swift */; };
 		65DACE3825C0B8B700DCEABC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DACE3725C0B8B700DCEABC /* CardView.swift */; };
+		65DACE4025C728ED00DCEABC /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DACE3F25C728ED00DCEABC /* CalendarView.swift */; };
+		65DACE4425C7299900DCEABC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DACE4325C7299900DCEABC /* Utils.swift */; };
 		65E4CC3C25B10EF50083609C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC3B25B10EF50083609C /* AppDelegate.swift */; };
 		65E4CC3E25B10EF50083609C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC3D25B10EF50083609C /* ContentView.swift */; };
 		65E4CC4125B10EF50083609C /* RedBreastRobin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CC3F25B10EF50083609C /* RedBreastRobin.xcdatamodeld */; };
@@ -76,6 +78,8 @@
 		65DACE1D25BD028B00DCEABC /* COVIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVIDView.swift; sourceTree = "<group>"; };
 		65DACE3125BECBAB00DCEABC /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		65DACE3725C0B8B700DCEABC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		65DACE3F25C728ED00DCEABC /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		65DACE4325C7299900DCEABC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		65E4CC3825B10EF50083609C /* RedBreastRobin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBreastRobin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E4CC3B25B10EF50083609C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65E4CC3D25B10EF50083609C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 				6508995825B779670029908E /* PastMatchView.swift */,
 				65DACDFB25BC3DF300DCEABC /* RetailAvailabilityView.swift */,
 				65DACDF025BB8DDC00DCEABC /* UpcomingMatchesView.swift */,
+				65DACE3F25C728ED00DCEABC /* CalendarView.swift */,
 				65DACE1D25BD028B00DCEABC /* COVIDView.swift */,
 				65DACE3725C0B8B700DCEABC /* CardView.swift */,
 				65DACDEB25BA109A00DCEABC /* TeamBadgeView.swift */,
@@ -194,6 +199,7 @@
 				65DACDF525BB8F8400DCEABC /* DateUtils.swift */,
 				65DACE1425BD008200DCEABC /* COVID */,
 				65DACE0825BC3F9600DCEABC /* HttpUtils.swift */,
+				65DACE4325C7299900DCEABC /* Utils.swift */,
 				65E4CC3F25B10EF50083609C /* RedBreastRobin.xcdatamodeld */,
 				65E4CC4425B10EF80083609C /* Preview Content */,
 			);
@@ -368,6 +374,7 @@
 				65E4CC4125B10EF50083609C /* RedBreastRobin.xcdatamodeld in Sources */,
 				65E4CC3E25B10EF50083609C /* ContentView.swift in Sources */,
 				6508995925B779670029908E /* PastMatchView.swift in Sources */,
+				65DACE4025C728ED00DCEABC /* CalendarView.swift in Sources */,
 				65DACE0425BC3E1500DCEABC /* RetailAvailabilityService.swift in Sources */,
 				65DACE1E25BD028B00DCEABC /* COVIDView.swift in Sources */,
 				65E4CC3C25B10EF50083609C /* AppDelegate.swift in Sources */,
@@ -375,6 +382,7 @@
 				65DACDE425B77BFC00DCEABC /* FootballService.swift in Sources */,
 				65DACDEC25BA109A00DCEABC /* TeamBadgeView.swift in Sources */,
 				65DACE1625BD009C00DCEABC /* COVIDService.swift in Sources */,
+				65DACE4425C7299900DCEABC /* Utils.swift in Sources */,
 				65DACDF125BB8DDC00DCEABC /* UpcomingMatchesView.swift in Sources */,
 				65DACE3225BECBAB00DCEABC /* LineChartView.swift in Sources */,
 				65DACDFC25BC3DF300DCEABC /* RetailAvailabilityView.swift in Sources */,

@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            FootballView()
+            CardView {
+                FootballView()
+            }
             HStack{
-                RetailAvailabilityView()
-                COVIDView()
+                CardView { RetailAvailabilityView() }
+                CardView { COVIDView() }
             }
         }.padding(.all, 30)
     }
